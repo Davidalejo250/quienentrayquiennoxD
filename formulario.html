@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" media="screen" href="./styles.css">
+  <title>Formulario</title>
+</head>
+<body><!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles.css">
+    <style>
+      
+    </style>
+    <title>Confirmación de Asistencia</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Confirmación de Asistencia</h1>
+        <p>¡Únete a nuestra fiesta y confirma tu asistencia!</p>
+      </header>
+  
+      <main>
+        <form id="formulario" class="registration-form">
+          <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+          </div>
+          <div class="form-group">
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" required>
+          </div>
+          <div class="form-group">
+            <label for="nacionalidad">Nacionalidad:</label>
+            <select id="nacionalidad" required>
+              <option value="mexicana">Mexicana</option>
+              <option value="venezolana">Venezolana</option>
+              <option value="argentina">Argentina</option>
+              <option value="peruana">Peruana</option>
+            </select>
+          </div>
+          <button type="submit" class="styled-button">Confirmar Asistencia</button>
+        </form>
+        
+        <section id="usuarios-list" class="guest-list">
+          <h2>Lista de Invitados Confirmados</h2>
+          <ul id="lista">
+          </ul>
+        </section>
+      </main>
+    </div>
+  
+    <footer>
+      <script src="../formulario.js"></script>
+    </footer>
+  </body>
+  </html>
+  
+  <h1>Bienvenidos a mi fiesta</h1>
+    <h2>Por favor, confirmar asistencia:</h2>
+
+  <form id="formulario">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" required>
+    <br>
+    <br>
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" required>
+    <br>
+    <br>
+    <label for="nacionalidad">Nacionalidad:</label>
+    <select id="nacionalidad" required>
+      <option value="mexicana">Mexicana</option>
+      <option value="venezolana">Venezolana</option>
+      <option value="argentina">Argentina</option>
+      <option value="peruana">Peruana</option>
+    </select>
+    <br>
+    <br>
+    <button type="submit">Registrar</button>
+  </form>
+  
+  <div id="usuarios-list">
+    <h2>Lista de Usuarios Registrados</h2>
+    <ul id="lista">
+    </ul>
+  </div>
+
+  <script src="../formulario.js"></script>
+</body>
+
+</html>
